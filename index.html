@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de QR SICAPRE</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Generador de QR SICAPRE</h1>
+      </div>
+      <div class="form-group">
+        <input type="text" id="text" placeholder="Ingresa el texto o URL" />
+        <button id="generate">Generar QR</button>
+      </div>
+      <div class="qr-container" id="qr-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
